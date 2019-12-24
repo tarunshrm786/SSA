@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/g5"
+    tools:context=".Aboutus">
+
+    <TextView
+        android:id="@+id/text_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+        android:text="About Us"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="24dp"
+            android:text="Sena Security Agency (India) (SSA) is a private security firm in India. It is based in Prayagraj,Uttar Pradesh, India. It was set up in 2019 by Mr. Raj Kumar Tiwari . Today SSA is one of the largest manpower security firms in Prayagraj,Uttar Pradesh. The company offers security services to Banks, Hotels, Institutions, Residential Colonies, Retail and Commercial Establishments.
+Address :- 83L/21-S Near Nehru Park Ayappa
+ Temple Sulem Sarai Prayagraj."
+            />
+
+    </ScrollView>
+
+</RelativeLayout>

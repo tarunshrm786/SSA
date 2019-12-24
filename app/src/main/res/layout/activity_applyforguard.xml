@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/g5"
+    tools:context=".applyforguard">
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:text="Apply for Guard"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:background="@color/colorAccent"
+        />
+
+    <EditText
+        android:id="@+id/institue"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginLeft="40dp"
+        android:textSize="26dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:layout_marginTop="50dp"
+        android:hint="Name of Institute"
+        />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginLeft="40dp"
+        android:textSize="26dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:hint="Contact"
+        />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginLeft="40dp"
+        android:textSize="26dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:hint="Address"
+        />
+
+    <EditText
+        android:id="@+id/district"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginLeft="40dp"
+        android:textSize="26dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:hint="District"
+        />
+
+    <EditText
+        android:id="@+id/state"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginLeft="40dp"
+        android:textSize="26dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:hint="State"
+        />
+
+    <EditText
+        android:id="@+id/pincode"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginLeft="40dp"
+        android:textSize="26dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:hint="Pincode"
+        />
+
+    <EditText
+        android:id="@+id/guard"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginLeft="40dp"
+        android:textSize="26dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:hint="No. of Guard"
+        />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Reset"
+            android:background="@color/colorWhite"
+            android:textSize="15sp"
+            android:layout_marginLeft="40dp"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Submit"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="40dp"
+            android:background="@color/colorAccent"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

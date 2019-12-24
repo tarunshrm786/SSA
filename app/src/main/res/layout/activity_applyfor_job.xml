@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/g5"
+    tools:context=".applyforJob">
+
+    <TextView
+        android:id="@+id/text_slideshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:background="@color/colorAccent"
+        android:fontFamily="sans-serif-black"
+        android:text="Apply for Job"
+
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorWhite"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="50dp"
+                android:hint="Name"
+                android:inputType="text"
+                android:ems="10"/>
+
+            <EditText
+                android:id="@+id/Father"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorWhite"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:inputType="text"
+                android:hint="Father's Name"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/dob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorWhite"
+                android:layout_marginLeft="100dp"
+                android:inputType="date"
+                android:layout_marginTop="20dp"
+                android:hint="Date of Birth"
+                android:ems="10" />
+
+            <TextView
+                android:id="@+id/text_geder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="100dp"
+                android:textColorHint="@color/colorWhite"
+                android:textSize="18dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Gender"
+                android:textColor="@color/colorWhite"
+                />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textColorHint="@color/colorWhite"
+                android:id="@+id/radioGroup">
+
+                <RadioButton
+                    android:id="@+id/radioMale"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Male"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="100dp"
+                    android:textColorHint="@color/colorWhite"
+                    android:checked="false"
+                    android:textSize="18dp" />
+
+                <RadioButton
+                    android:id="@+id/radioFemale"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="   Female"
+                    android:layout_marginTop="10dp"
+                    android:textColorHint="@color/colorWhite"
+                    android:layout_marginLeft="30dp"
+                    android:checked="false"
+                    android:textSize="18dp" />
+            </RadioGroup>
+            <EditText
+                android:id="@+id/Height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="number"
+                android:hint="Height"
+                android:layout_marginTop="10dp"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/Weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorWhite"
+                android:layout_marginLeft="100dp"
+                android:inputType="number"
+                android:hint="Weight"
+                android:layout_marginTop="20dp"
+                android:ems="10" />
+
+
+            <EditText
+                android:id="@+id/mobileno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorWhite"
+                android:layout_marginLeft="100dp"
+                android:inputType="number"
+                android:hint="Mobile Number"
+                android:layout_marginTop="20dp"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/emailid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:inputType="textEmailAddress"
+                android:hint="Email-id(if have)"
+                android:textColorHint="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:ems="10" />
+
+
+            <EditText
+                android:id="@+id/peraddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:inputType="text"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@color/colorWhite"
+                android:hint="Permanent Address"
+                android:ems="10" />
+
+
+            <EditText
+                android:id="@+id/curraddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:textColorHint="@color/colorWhite"
+                android:inputType="text"
+                android:layout_marginTop="20dp"
+                android:hint="Current Address"
+                android:ems="10" />
+            <EditText
+                android:id="@+id/district"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:inputType="text"
+                android:hint="District"
+                android:textColorHint="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:inputType="text"
+                android:textColorHint="@color/colorWhite"
+                android:hint="State"
+                android:layout_marginTop="20dp"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/pincode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:inputType="number"
+                android:hint="Pincode"
+                android:textColorHint="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/religion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:inputType="text"
+                android:hint="Religion"
+                android:textColorHint="@color/colorWhite"
+                android:layout_marginTop="20dp"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/aadhar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:inputType="number"
+                android:textColorHint="@color/colorWhite"
+                android:hint="Aadhar Card number"
+                android:layout_marginTop="20dp"
+                android:ems="10" />
+
+            <EditText
+                android:id="@+id/Pancard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:inputType="number"
+                android:textColorHint="@color/colorWhite"
+                android:hint="Pancard number"
+                android:layout_marginTop="20dp"
+                android:ems="10" />
+
+
+            <TextView
+                android:id="@+id/gun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="100dp"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Whether you have gun or not?"
+                android:textColor="@color/colorWhite"
+                />
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="144dp"
+                android:layout_marginTop="10dp"
+                android:text="Yes"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="144dp"
+                android:layout_marginTop="10dp"
+                android:text="No"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Reset"
+                android:background="@color/colorWhite"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="60dp"
+                android:typeface="normal" />
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="40dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp"
+                android:background="@color/colorAccent"
+                android:layout_marginBottom="20dp"
+                android:text="Submit" />
+
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

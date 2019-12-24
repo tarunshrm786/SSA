@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1058878689188",
+    "firebase_url": "https://ssaapp-ac617.firebaseio.com",
+    "project_id": "ssaapp-ac617",
+    "storage_bucket": "ssaapp-ac617.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1058878689188:android:91f8e0340eb6d4daa87b31",
+        "android_client_info": {
+          "package_name": "com.example.mynavapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1058878689188-ecmmfi5t3s15vb4ipvgl035qtu25n1nj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mynavapp",
+            "certificate_hash": "4cda57ee9f2b1666b20ead27dee50e69c83332ff"
+          }
+        },
+        {
+          "client_id": "1058878689188-qaes59o6vv9f0nofua3qi6r0rpobd937.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBrJlw1eLuXdBHF1C-83IN8q29ap86HsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1058878689188-qaes59o6vv9f0nofua3qi6r0rpobd937.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
